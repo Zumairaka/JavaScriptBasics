@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript</title>
+    <script>
+        //alert ("Welcome");
+        console.log("Zumaira");
+        const prop = 'Hello World';
+        console.log(prop.length);
+        console.log(prop.toUpperCase());
+        console.log(prop.substring(0,5));
+        console.log(prop.substring(0,5).toUpperCase());
+        let name = "Zumaira";
+        console.log(typeof name);
+        console.log(typeof name);
+        let person = {
+            name : "Zumaira",
+            age : 28,
+            address:{
+                    city : "Kasargod",
+                    flat : "303E",
+            }
+        };
+        console.log(person);
+        console.log(person.name);
+        console.log(person['age']);
+        console.log(person.address);
+        let colors = ["red","blue"];
+        console.log(colors);
+        console.log(colors[1]);
+        console.log(colors.length);
+        colors[2] = "green";
+        console.log(colors);
+        colors.push('purple');
+        console.log(colors);
+        colors.unshift('pink');
+        console.log(colors);
+        colors.pop();
+        console.log(colors);
+        function addition(val1,val2)
+        {
+            return (val1+val2);
+        }
+        console.log(addition(2,8));
+        let a = 10;
+        let b = 25;
+        if(a<b)
+        {
+            console.log("25 is greater than 10 ");
+        }
+        else
+            console.log("10 is less than 25");
+            document.write("hii</br>");
+            var grade = 'A';
+            document.write("Entering Switch block </br>");
+            switch(grade)
+            {
+                case 'A': document.write("Excellent </br>");break;
+                case 'b': document.write("Good </br>");break;
+                case 'C': document.write("Passed </br>");break;
+                case 'D': document.write("Not so good </br>");break;
+                case 'E': document.write("Failed </br>");break;
+                deafult : document.write("Exiting switch block </br>");
+            }
+            var val = 0;
+            while(val<10)
+            {
+                document.write(val+"</br>");
+                val++;
+            }
+            document.write("</br></br>");
+            for(val = 0;val<=10;val++)
+            {
+                document.write(val+"</br>");
+            }
+            document.write("</br></br>");
+            do{
+                document.write("Current value =" +val+"</br>");
+                val++;
+            }while(val<5);
+
+            // array print
+
+            var fruits = ["Apple","Orange","Mango","Grapes"];
+            for(var i = 0;i<fruits.length;i++)
+            {
+                document.write(fruits[i]+"</br>");
+            }
+
+            //sum of array
+            var sum = 0; i = 0;
+            var numbers = [10,20,25,30,40,60];
+            while(i<numbers.length)
+            {
+                sum+=numbers[i];
+                i++;
+            }
+            document.write("<br><br>"+sum);
+
+    </script>
+    
+</head>
+<body>
+    
+</body>
+</html>
